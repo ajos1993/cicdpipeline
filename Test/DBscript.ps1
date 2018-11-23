@@ -148,4 +148,4 @@ Function Add-DatabricksNotebookJob {
     }
 }
 
-Add-DatabricksNotebookJob -BearerToken $BearerToken -Region $Region -JobName $JobName -SparkVersion $SparkVersion -NodeType $NodeType -MinNumberOfWorkers 1 -MaxNumberOfWorkers 2 -MaxRetries 1 -ScheduleCronExpression "0 15 22 ? * *" -Timezone "UTC" -NotebookPath $NotebookPath
+Add-DatabricksNotebookJob -BearerToken $BearerToken -Region $Region -JobName $JobName -SparkVersion $SparkVersion -NodeType $NodeType -MinNumberOfWorkers 1 -MaxNumberOfWorkers 2 -MaxRetries 1 -ScheduleCronExpression "* 2 * * *" -Timezone "UTC" -NotebookPath $NotebookPath
