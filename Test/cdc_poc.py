@@ -9,6 +9,7 @@ connectionProperties = {
   "password" : "Qwerty@12345678",
   "driver" : "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 }
+print()
 
 #### Read [dbo].[tags] from SQL Database ####
 
