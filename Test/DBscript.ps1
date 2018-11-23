@@ -10,7 +10,7 @@ $MaxNumberOfWorkers="2"
 $MaxRetries="1"
 $ScheduleCronExpression="0 */4 * * * *"
 $Timezone="UTC"
-$NotebookPath="/Shared/prod/drop/cdc_poc"
+$NotebookPath="/Shared/GitProd/dropGIT/cdc_poc"
 
 
 Function Get-DatabricksJobs
