@@ -1,6 +1,6 @@
 #Databricks notebook source##
 
-#### Connect Azure SQL Database ####
+### Connect Azure SQL Database ###
 
 jdbcUrl = "jdbc:sqlserver://innovationtestserver.database.windows.net:1433;database=innovationtestdb"
 
